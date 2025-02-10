@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-family: "Lato", serif;
+}
+header{
+    width: 1366px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f79fc4b8;
+}
+header img{
+    height: 100%;
+}
+nav{
+    width: 1366px;
+    height: 50px;
+    margin: 0 auto;
+background-color:#a6376ba6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a{
+    color: rgb(246, 246, 246);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Merienda", serif;
+    font-size: 18px;
+    font-weight: 400px;
+}
+nav a:hover{
+    background-color: pink;
+}
+main{
+    width: 1366px;
+    height: auto;
+    background-color: rgb(249, 213, 255);
+    margin: 0 auto;
+    background-image: url(../imgs/wp11273574-kirby-aesthetic-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.personaje{
+    width: 1300px;
+    height: 400px;
+    background-color: #fda4ea76;
+
+    margin-top: 20px;
+  margin-left: 33px;
+    display: inline-block;
+}
+.foto{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 33px;
+    text-align: center;
+}
+.foto img{
+    height: 100%;
+}
+.texto{
+    width: 800px;
+    height: 400px;
+    float: left;
+    margin-left: 33px;
+    padding: 20px;
+}
+.texto h2{
+    font-family: "Merienda", serif;
+}
+footer{
+    width: 1366px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #33587e;
+}
